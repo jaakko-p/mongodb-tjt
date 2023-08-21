@@ -1,9 +1,6 @@
 // No niin starttaillaanpa täältä projektia!
 // Yleisen tason ajatukset ja tietokannan skeema löytyy "Mongo skeema & yleinen selostus tiedostosta". 
-// Tässä siis tietokannan ja datan luonti. Koodin laatu ei välttämättä erityisen korkea, mutta mennään näillä
-// JSON-tiedostoissa pelkkä data ja täällä sitten nämä tuontilauseet ja muut vastaavat. Regionien olen pyrkinyt parantamaan luettavuutta.
-// Huomautuksena tässä vielä, että JSON-tiedostojen data ei välttämättä ole lopullinen totuus -- kaikki mahdolliset muutokset tehty tässä tiedostossa.
-
+// Tässä siis tietokannan ja datan luonti.
 
 // #region Asiakkaat/Omistajat
 db.owners.insertMany([{
