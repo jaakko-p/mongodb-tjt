@@ -1,6 +1,7 @@
 // No niin starttaillaanpa täältä projektia!
 // Yleisen tason ajatukset ja tietokannan skeema löytyy "Mongo skeema & yleinen selostus tiedostosta". 
 // Tässä siis tietokannan ja datan luonti.
+// Lopussa tietojen toimitus tietokantaan
 
 // #region Asiakkaat/Omistajat
 db.owners.insertMany([{
