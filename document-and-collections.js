@@ -1,4 +1,3 @@
-// No niin starttaillaanpa täältä projektia!
 // Yleisen tason ajatukset ja tietokannan skeema löytyy "Mongo skeema & yleinen selostus tiedostosta". 
 // Tässä siis tietokannan ja datan luonti.
 // Lopussa tietojen toimitus tietokantaan
@@ -2994,7 +2993,7 @@ newbies.forEach(newbie => {
     db.new_hires.insertOne(newbie) 
 });
 
-// Koska täällä lisäämme $merge- ja $project-operaattorien avulla halutun datan tietokantaan 
+// Koska täällä lisäämme $merge- ja $project-operaattorien avulla halutun datan tietokantaan
 db.employees.aggregate([
     {$project: {fname: 1, sname: 1, role: 1, start_date: 1}},
     {$merge: {into: "new_hires", on: "_id", whenMatched: "merge"}}
