@@ -1,5 +1,4 @@
-//#region Kyselyt asioiden tiimoilta
-// Mites nyt saataisiin ne tiedot, jotka skeemassa haluttiin tietää?
+//#region Aikaisempaan skeemaan perustuvat kyselyt
 
 
 // Q1: YKSITTÄISEN ASIAKKAAN KAIKKI TIEDOT
