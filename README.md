@@ -1,7 +1,7 @@
 # MongoDB Database
 Database designed and implemented as part of TJTA3501 Logical Database Design coursework. Also see the others in this series from my profile.
 
-##Project basis
+## Project basis
 Continuation from the previous in the series. Design and implementation of a mechanics shop database, containing data from vehicles, customer, shops, employees, 
 and vehicle checkups.
 ### Queries?
