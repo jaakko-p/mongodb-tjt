@@ -14,6 +14,6 @@ and vehicle checkups.
 ### Updates?
 1. Vehicle ownership changes
 2. Employee contract changes
-##Schema
+## Schema
 ![kuva](https://github.com/jaakko-p/mongodb-tjt/assets/142789757/e6871d94-87e2-425a-ad7b-0f996f0f23f0)
  
